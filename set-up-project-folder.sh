@@ -1,3 +1,5 @@
 #!/bin/bash
 cd ~/web
-sudo git clone $1 
+sudo su <<EOF
+git clone $1 
+EOF
