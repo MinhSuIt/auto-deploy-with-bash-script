@@ -14,8 +14,6 @@ source set-up-php.sh $2
 source set-up-nginx.sh $2
 source set-up-mysql.sh $2
 
-source set-up-project-folder.sh $3
-source set-up-create-database.sh $4
-source set-up-create-nginx.sh $1 $2
+source set-up-project.sh $1 $2 $3 $4
 # bash set-up-server.sh DOMAIN PHP_VERSION GITHUB_SSH_URL DB_NAME
 # bash set-up-server.sh abc.com 8.1 git@github.com:MinhSuIt/test.git abc
