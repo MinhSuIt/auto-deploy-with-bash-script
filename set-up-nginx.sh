@@ -3,7 +3,7 @@ sudo apt remove -y apache2 apache2-bin apache2-data apache2-utils libapache2-mod
 sudo apt install -y ufw nginx git
 sudo timedatectl set-timezone Asia/Ho_Chi_Minh
 # web folder
-sudo mkdir ~/web
+mkdir ~/web
 sudo cat > /etc/nginx/conf.d/gzip.conf << EOF
 gzip_comp_level 5;
 gzip_min_length 256;
