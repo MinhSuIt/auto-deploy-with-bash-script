@@ -1,7 +1,7 @@
 #!/bin/bash
 # với GCP VPS khi ssh lần đầu vào phải thiết lập mật khẩu để làm các thao tác khác
-# sudo passwd => truy cập quyền root với mật khẩu vừa tạo bằng: su
-# đăng nhập vào root bằng: su sau đó tạo mật khẩu cho tài khoản thực thi script là minhsudoit: passwd minhsudoit
+# set password cho tài khoản root: sudo su rồi passwd
+# chuyển sang tài khoản root bằng: su sau đó tạo mật khẩu cho tài khoản thực thi script là minhsudoit: passwd minhsudoit
 # vào tài khoản minhsudoit chạy:
 # sudo su <<EOF
 # echo "minhsudoit ALL=(ALL) ALL" >> /etc/sudoers
